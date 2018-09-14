@@ -47,7 +47,7 @@ void setup()   {
   // Initialize OLED
 
   display.begin(SSD1306_SWITCHCAPVCC, 0X3C);  // initialize with the I2C addr 0X3D (for the 128x64)
-  display.setRotation(180);
+  display.setRotation(2);
   display.clearDisplay();
   display.display();
 
